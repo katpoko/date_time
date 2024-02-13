@@ -14,3 +14,7 @@
 
 ## Citations
 * List your citations here
+*[Favicon Generator](https://www.favion.io)
+*[Font Share](https://www.fontshare.com/)
+*CodePen
+*AI
