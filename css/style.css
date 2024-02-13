@@ -6,10 +6,17 @@
 
 body {
   font-family: 'Tanker', sans-serif;
-  font-size: 8rem;
+  transition: background .5s;
+}
+
+
+.dark {
+  background: darkgray;
+  color: whitesmoke;
 }
 
 main {
+  font-size: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;

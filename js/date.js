@@ -2,27 +2,27 @@
 Static Data
 ************/
 const allTheMonths = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
+  "JAN",
+  "FEB",
+  "MAR",
+  "APR",
+  "MAY",
   "June",
   "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December"
+  "AUG",
+  "SEPT",
+  "OCT",
+  "NOV",
+  "DEC"
 ];
 const allTheDays = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday"
+  "SUN",
+  "MON",
+  "TUE",
+  "WED",
+  "THU",
+  "FRI",
+  "SAT"
 ];
 
 /************
