@@ -29,3 +29,11 @@ main {
   transition: color .5s;
  }
  
+#time {
+ font-family: 'Clash Grotesk', sans-serif;
+  font-size: 1.5rem;
+  color: #49d450;
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+ }
