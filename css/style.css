@@ -11,8 +11,8 @@ body {
 
 
 .dark {
-  background: darkgray;
-  color: whitesmoke;
+  background: #0f3e11;
+  color: #49d450;
 }
 
 main {
@@ -23,5 +23,9 @@ main {
   justify-content: center;
   height: 100vh;
 }
-
+ a {
+  text-decoration: none;
+  color: inherit;
+  transition: color .5s;
+ }
  
