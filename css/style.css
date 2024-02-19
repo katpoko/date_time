@@ -1,11 +1,11 @@
 /* Diagnostic */
 
-* {
+/* * {
   outline: 1px dotted darkgray;
-}
+} */
 
 body {
-  font-family: 'Tanker', sans-serif;
+  font-family: 'Clash Grotesk', sans-serif;
   transition: background .5s;
 }
 
@@ -24,3 +24,4 @@ main {
   height: 100vh;
 }
 
+ 

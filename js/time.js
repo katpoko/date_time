@@ -30,6 +30,7 @@ gotHours = gotHours % 12 || 12;
 gotHours = gotHours < 10 ? `${gotHours}` : gotHours;   
 // Optionally, append zero to single digit minutes
 gotMinutes = gotMinutes < 10 ? `${gotMinutes}` : gotMinutes;
+
 // Optionally, append zero to single digit seconds
 gotSeconds = gotSeconds < 10 ? `${gotSeconds}` : gotSeconds;
 
