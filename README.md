@@ -1,16 +1,9 @@
 # Date and Time Project
-
-
-
-* Introductiont to core JavaScript concepts
-* Explore JavaScript Date objects
-* Manipulate the DOM nodes with dynamic content
-* Apply CSS styling to dynamic data
-* Explore pro/cons to _frameworks_
+Version 1 // Time & Date Project // EWU Winter 2024
 
 ## Citations
-* List your citations here
-*[Favicon Generator](https://www.favion.io)
+List your citations here
+*[Favicon Generator](https://www.favicon.io)
 *[Font Share](https://www.fontshare.com/)
 *CodePen
-*AI
+*[Gemini-AI](https://deepmind.google/)
