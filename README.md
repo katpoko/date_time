@@ -1,5 +1,5 @@
 # Date and Time Project
-Version 1 // Time & Date Project // EWU Winter 2024
+Time & Date Project // EWU Winter 2024 // Version 1
 
 ## Citations
 List your citations here
