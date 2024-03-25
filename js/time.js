@@ -29,10 +29,10 @@ gotHours = gotHours % 12 || 12;
 // Optionally, append zero to single digit hours
 gotHours = gotHours < 10 ? `${gotHours}` : gotHours;   
 // Optionally, append zero to single digit minutes
-gotMinutes = gotMinutes < 10 ? `${gotMinutes}` : gotMinutes;
+gotMinutes = gotMinutes < 10 ? `0${gotMinutes}` : gotMinutes;
 
 // Optionally, append zero to single digit seconds
-gotSeconds = gotSeconds < 10 ? `${gotSeconds}` : gotSeconds;
+gotSeconds = gotSeconds < 10 ? `0${gotSeconds}` : gotSeconds;
 
 /************
 Get DOM Elements
@@ -65,3 +65,5 @@ Run App
 ************/
 // Re-run `theClockApp` every 1 second (1000 ms)
 setInterval(theClockApp, 1000);
+
+
