@@ -1,39 +1,91 @@
 /* Diagnostic */
 
-/* * {
-  outline: 1px dotted darkgray;
-} */
-
-body {
-  font-family: 'Clash Grotesk', sans-serif;
-  transition: background .5s;
-}
-
-
-.dark {
-  background: #0f3e11;
-  color: #49d450;
-}
-
-main {
-  font-size: 8rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
- a {
+* {
+  /*   outline: 1px dotted darkgray; */
+    
+  }
+  
+  #gradient {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: -1;
+    background-position: 0% 0%; 
+    container-type: inline-size;
+    container-name: graident;
+    animation: animateGradient 10s ease-in-out infinite; 
+  }
+  
+  @keyframes animateGradient {
+    0% {
+      background-image: linear-gradient(to right, blue, red, orange);
+  
+    }
+    70% {
+      background-image: linear-gradient(to right, red, blue, blueviolet);
+   
+    }
+    100% {
+      background-image: linear-gradient(to right, blueviolet, red, blue);
+  
+    }
+  }
+  
+  
+  body  {
+     font-family: 'Clash Grotesk', sans-serif;
+      transition: color 2s;
+  
+      color: ghostwhite;
+  /*  mix-blend-mode: color-dodge; */
+  }
+  
+  
+  .dark {
+  /*   background: white; */
+    color: black;
+  /*   mix-blend-mode: color-dodge; */
+    transition: color 1s;
+  }
+  
+  a {
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 1em; 
   text-decoration: none;
-  color: inherit;
-  transition: color .5s;
- }
- 
-#time {
- font-family: 'Clash Grotesk', sans-serif;
-  font-size: 1.5rem;
-  color: #49d450;
-  margin-top: 1rem;
-  display: block;
-  text-align: center;
- }
+    color: whitesmoke;
+    mix-blend-mode: color-dodge;
+  
+    position: absolute;
+  
+    top: 10%;
+    right: 5%;
+  
+  }
+  
+  main {
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  /*   mix-blend-mode: color-burn; */
+  }
+  
+  .date {
+    font-size: 1em;
+  }
+  
+  .time {
+    font-size: 1.5em;
+  }
+  .time .date {
+   margin-top: 100px;
+    color: whitesmoke;
+  
+    
+  }
+  
