@@ -46,7 +46,7 @@
   .dark {
   /*   background: white; */
     color: black;
-  /*   mix-blend-mode: color-dodge; */
+    /* mix-blend-mode: darken; */
     transition: color 1s;
   }
   
