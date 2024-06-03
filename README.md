@@ -1,5 +1,6 @@
 # Date and Time Project
 EWU Winter 2024 // Version 1
+[Deployment](https://kats-klock.netlify.app/)
 
 ## Citations
 
